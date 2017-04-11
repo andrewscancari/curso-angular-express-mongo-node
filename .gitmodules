@@ -1,0 +1,3 @@
+[submodule "cookbooks/apt"]
+path = curso-node-backend-api
+url = git@github.com:andrewscancari/curso-node-backend-api.git
