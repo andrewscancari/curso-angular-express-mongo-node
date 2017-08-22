@@ -9,3 +9,26 @@ git submodule init
 
 # Agora o comando para baixar ele
 git submodule update
+
+# Instalar mongo db
+https://www.mongodb.com/download-center?jmp=nav#community
+
+# Criar pasta do banco
+C:\data\db
+
+# Iniciar mongo
+comando> mongod
+
+# Conectar no banco e criar o schema/banco/collection(nome correto no mongo) padrao de uso
+comando> mongo
+comando> use db_finance
+comando> db.createCollection('billingCycles')
+comando> show collections
+comando> show dbs
+
+# Instalar dependencias da aplicacao
+-> na pasta da api que possui o package.json, executar(Caso esteja no windows, executar como administrador)
+comando> npm install
+
+# Rodar aplicacao/Subir servidor BACKEND
+comando> npm run dev
